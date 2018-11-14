@@ -2,10 +2,8 @@
 Instructions and PS script example for how to interactively pull service health and message center posts from a tenant
 
 Use O365 Mgmt API via PowerShell to get Service Health and Incidents as well as Message Center posts: 
-•	Login to AAD Portal with GA account from the tenant where you wish to capture service health and message center updates
-  i.	 Select All Services from the blade at the left and find and go into App Registrations
   
-    1.	Click + New Application Registration button
+    1.	Login to AAD Portal, Select All Services, go into App Registrations, and then click + New Application Registration button
       a.	Give it a name like "O365 Mgmt API"
       b.	Leave application type "Web app / API"
       c.	Set a dummy signon url like "https://dummyurl" (this URL not used)
